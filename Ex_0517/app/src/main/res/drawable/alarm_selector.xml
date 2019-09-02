@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 버튼 클릭 완료 -->
+    <item android:drawable="@mipmap/a_alarm"
+        android:state_pressed="true"/>
+
+    <!-- 버튼 클릭 전 -->
+    <item android:drawable="@mipmap/b_alarm"
+        android:state_pressed="false"/>
+
+</selector>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#77ffff77"
+    android:orientation="vertical">
+    <!-- orientation : horizontal - 수평정렬
+                       vertical - 수직정렬 -->
+    <TextView
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="#f4511e"
+        android:fontFamily="@font/godomaum"
+        android:text="이번에"
+        android:textSize="80dp"
+        />
+
+    <TextView
+        android:gravity="top"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textColor="#f4511e"
+        android:fontFamily="@font/godomaum"
+        android:layout_marginLeft="190dp"
+        android:text="내려요"
+        android:textSize="80dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:hint="키를 입력해주세요."/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="onClick속성 사용"
+        android:alpha="0.5"/>
+
+</LinearLayout>

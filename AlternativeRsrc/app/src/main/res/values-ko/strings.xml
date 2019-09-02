@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg1">배경화면</string>
+    <string name="app_name">화면 전환 모드</string>
+</resources>

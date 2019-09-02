@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:gravity="center"
+    android:background="#aaf">
+
+    <!--<ProgressBar
+        android:layout_width="30dp"
+        android:layout_height="30dp" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="10개 더 불러오기"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

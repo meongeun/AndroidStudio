@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LookActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/ltitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="군도"
+        android:textSize="20dp"/>
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_15"
+        android:layout_toRightOf="@+id/ltitle"/>
+    <RatingBar
+
+        android:layout_marginLeft="90dp"
+        android:id="@+id/lrating"
+        android:layout_below="@+id/ltitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"/>
+    <TextView
+        android:layout_below="@id/lrating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="한줄평"
+        android:textSize="20dp"
+        android:id="@+id/ltext"/>
+    <ListView
+        android:layout_below="@+id/ltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</RelativeLayout>

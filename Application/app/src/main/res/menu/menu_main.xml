@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pmenu"
+        android:title="필터링">
+        <menu>
+            <item android:title="정보"></item>
+            <item android:title="홍보"></item>
+        </menu>
+
+    </item>
+</menu>

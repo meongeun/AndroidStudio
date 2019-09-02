@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Ex_0626</string>
+
+    <!-- 안드로이드 script문서 구조에서 CDATA섹션은 초기 <![CDATA["< "]]>를 발견한 경우
+         이를 요소나 태그로 해석하지 않고 문자로 인식한다.-->
+    <string name="alert_warning">
+        <![CDATA["< "]]>Warning!!!<![CDATA[" >"]]>
+    </string>
+
+    <string name="alert_error">
+        <![CDATA["< "]]>Error!!!<![CDATA[" >"]]>
+    </string>
+
+    <string name="alert_success">
+        <![CDATA["< "]]>Success<![CDATA[" >"]]>
+    </string>
+
+    <string name="alert_default">
+        <![CDATA["< "]]>Default<![CDATA[" >"]]>
+    </string>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

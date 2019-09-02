@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <TimePicker
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       android:layout_gravity="center">
+    </TimePicker>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:text="현재 시각을 보여줍니다."
+    android:textColor="#ff0000"
+    android:textSize="18sp"
+    />
+
+
+</FrameLayout>

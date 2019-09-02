@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarqueeActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="marquee marquee marquee marquee marquee marquee marquee marquee marquee marquee marquee marquee marquee marquee marquee marquee marquee "
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="repeat limit 1 repeat limit 1 repeat limit 1 repeat limit 1 repeat limit 1 repeat limit 1 repeat limit 1 repeat limit 1 repeat limit 1 "
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1start 2start 3start 4start 5start 6start 7start 8start 9start 10start"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1start 2start 3start 4start 5start 6start 7start 8start 9start 10start"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1start 2start 3start 4start 5start 6start 7start 8start 9start 10start"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:textSize="20dp"/>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
